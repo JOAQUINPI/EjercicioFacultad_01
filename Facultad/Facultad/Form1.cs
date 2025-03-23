@@ -21,5 +21,16 @@ namespace Facultad
         {
 
         }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSaludar_Click(object sender, EventArgs e)
+        {
+            String nombre = txtNombre.Text;
+            MessageBox.Show("Hola" + nombre);
+        }
     }
 }
